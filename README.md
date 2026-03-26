@@ -1,4 +1,4 @@
-## Swift Public API documentation
+## OMI SDK Public API documentation
 
 ### iOS ###
 The documentation generated using [Apple's DocC]

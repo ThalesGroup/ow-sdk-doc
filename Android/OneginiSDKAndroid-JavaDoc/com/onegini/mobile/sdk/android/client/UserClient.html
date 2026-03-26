@@ -1,0 +1,1809 @@
+<!DOCTYPE HTML>
+<!-- NewPage -->
+<html lang="en"><head>
+    <title>UserClient 13.3.0-SNAPSHOT API </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="dc.created" content="2020-03-25">
+    <link rel="stylesheet" type="text/css" href="../../../../../../stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../../../../dokka-javadoc-stylesheet.css" title="Style">
+    <link rel="stylesheet" type="text/css" href="../../../../../../jquery/jquery-ui.css" title="Style">
+    <script type="text/javascript" src="../../../../../../jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../../../../../../jquery/jquery-migrate-3.4.0.min.js"></script>
+    <script type="text/javascript" src="../../../../../../jquery/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="../../../../../../search.js"></script>
+    <script async type="text/javascript" src="../../../../../../module-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../../../package-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../../../type-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../../../member-search-index.js"></script>
+    <script async type="text/javascript" src="../../../../../../tag-search-index.js"></script>
+</head><body>
+<script type="text/javascript">
+var pathtoroot = "../../../../../../";
+</script>
+<noscript>
+    <div>JavaScript is disabled on your browser.</div>
+</noscript><header role="banner">
+    <nav role="navigation">
+        <div class="fixedNav">
+            <!-- ========= START OF TOP NAVBAR ======= -->
+            <div class="topNav"><a id="navbar.top">
+                <!--   -->
+            </a>
+                <div class="skipNav"><a href="#skip.navbar.top" title="Skip navigation links">Skip navigation links</a>
+                </div>
+                <a id="navbar.top.firstrow">
+                    <!--   -->
+                </a>
+                <ul class="navList" title="Navigation">
+    <li><a href="../../../../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li class="navBarCell1Rev">Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+            <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+
+<ul class="navListSearch">
+<li><label for="search">SEARCH:</label>
+<input type="text" id="search" value="search" class="ui-autocomplete-input" autocomplete="off" placeholder="Search">
+<input type="reset" id="reset" value="reset">
+</li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ========= END OF TOP NAVBAR ========= -->
+        </div>
+        <div class="navPadding">&nbsp;</div>
+        <script type="text/javascript"><!--
+        $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
+        //-->
+        </script>
+    </nav>
+</header>
+
+<main role="main">
+    <div class="header">
+        <div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.onegini.mobile.sdk.android.client</a></div>
+        <h2 title="Class UserClient" class="title">Class UserClient</h2>
+    </div>
+    <div class="contentContainer">
+        <!-- <ul class="inheritance">
+            <li>java.lang.Object</li>
+            <li>
+                <ul class="inheritance">
+                    <li>adaptation.Adaptation</li>
+                </ul>
+            </li>
+        </ul> TODO inheritance tree -->
+        <div class="description">
+            <ul class="blockList">
+                <li class="blockList">
+                    
+                    <dl>
+                        <dt>All Implemented Interfaces:</dt>
+                        <dd>
+                            
+                        </dd>
+                    </dl>
+                    
+                    <hr>
+                    <pre class="wrap-overflow">
+
+public final class <span class="typeNameLabel"><a href=UserClient.html>UserClient</a></span>
+
+                    </pre>
+                    <div class="block"><p>User client implementation.</p><p>Main responsibilities:&lt;br&gt;&lt;/br&gt;</p><ul><li><p>handles users authentication&lt;br&gt;&lt;/br&gt;</p></li><li><p>logs out users&lt;br&gt;&lt;/br&gt;</p></li><li><p>deregisters users&lt;br&gt;&lt;/br&gt;</p></li><li><p>registering authenticators &lt;br&gt;&lt;/br&gt;</p></li><li><p>provides Retrofit Client instance for resource calls&lt;br&gt;&lt;/br&gt;</p></li><li><p>provides access token for the currently authenticated user&lt;br&gt;&lt;/br&gt;</p></li></ul></div>
+
+                    <dl>
+
+                    
+
+                    
+
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="summary">
+            <ul class="blockList">
+                <li class="blockList">
+                <!-- ======== NESTED CLASS SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="nested.class.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Nested Class Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Nested Classes</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Class</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== FIELD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="field.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Field Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Field</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>private final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/entity/UserProfile.html>UserProfile</a>&gt;</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#userProfiles>userProfiles</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>private final <a href=../model/entity/UserProfile.html>UserProfile</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#authenticatedUserProfile>authenticatedUserProfile</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>private final <a href=../model/entity/UserProfile.html>UserProfile</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#implicitlyAuthenticatedUserProfile>implicitlyAuthenticatedUserProfile</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>private  <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#preferredAuthenticator>preferredAuthenticator</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>private final OkHttpClient</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#resourceOkHttpClient>resourceOkHttpClient</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>private final OkHttpClient</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#implicitResourceOkHttpClient>implicitResourceOkHttpClient</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>private final <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#accessToken>accessToken</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>private final <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#idToken>idToken</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>private final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a>&gt;</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#identityProviders>identityProviders</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ======== CONSTRUCTOR SUMMARY ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Summary</h3>
+                                <div class="memberSummary">
+                                    <table>
+                                        <caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+                                        <tbody>
+                                        <tr>
+                                            <th class="colFirst" scope="col">Constructor</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+
+                                        
+                                            <tr class="altColor">
+                                                <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a
+                                                        href="#UserClient(com.onegini.mobile.sdk.android.internal.SDKClient)">UserClient</a></span>(<a href=../internal/SDKClient.html>SDKClient</a> sdkClient)</code></th>
+                                                <td class="colLast"></td>
+                                            </tr>
+                                        
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- =========== ENUM CONSTANT SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="enum.constant.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Enum Constant Summary</h3>
+                                <table class="memberSummary">
+                                    <caption><span>Enum Constants</span><span class="tabEnd">&nbsp;</span></caption>
+                                    <tr>
+                                        <th class="colFirst" scope="col">Enum Constant</th>
+                                        <th class="colLast" scope="col">Description</th>
+                                    </tr>
+                                    
+                                </table>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ========== METHOD SUMMARY =========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.summary">
+                                <!--   -->
+                            </a>
+                                <h3>Method Summary</h3>
+                                <div class="memberSummary">
+                                    <div role="tablist" aria-orientation="horizontal">
+                                        <button role="tab" aria-selected="true" aria-controls="memberSummary_tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="activeTableTab">All Methods</button>
+                                        <!-- TODO: Instance and Concrete Methods #1118 -->
+                                    </div>
+                                    <div id="memberSummary_tabpanel" role="tabpanel">
+                                    <table aria-labelledby="t0">
+                                        <tr>
+                                            <th class="colFirst" scope="col">Modifier and Type</th>
+                                            <th class="colSecond" scope="col">Method</th>
+                                            <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr id="i0" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/entity/UserProfile.html>UserProfile</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getUserProfiles()>getUserProfiles</a>() </code>
+                                            </th>
+                                            <td class="colLast">Returns Set of active UserProfile models that can be used for authentication.</td>
+                                        </tr>
+                                        
+                                        <tr id="i1" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=../model/entity/UserProfile.html>UserProfile</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getAuthenticatedUserProfile()>getAuthenticatedUserProfile</a>() </code>
+                                            </th>
+                                            <td class="colLast">Returns the <a href=../model/entity/UserProfile.html>UserProfile</a> object for the currently authenticated user, or null, if no user is currently authenticated.</td>
+                                        </tr>
+                                        
+                                        <tr id="i2" class="altColor">
+                                            <td class="colFirst"><code>final <a href=../model/entity/UserProfile.html>UserProfile</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getImplicitlyAuthenticatedUserProfile()>getImplicitlyAuthenticatedUserProfile</a>() </code>
+                                            </th>
+                                            <td class="colLast">Returns the <a href=../model/entity/UserProfile.html>UserProfile</a> object for the currently implicitly authenticated user, or null, if no user is currently implicitly authenticated.</td>
+                                        </tr>
+                                        
+                                        <tr id="i3" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getPreferredAuthenticator()>getPreferredAuthenticator</a>() </code>
+                                            </th>
+                                            <td class="colLast">Returns the preferred authenticator which will be used for user authentication.</td>
+                                        </tr>
+                                        
+                                        <tr id="i4" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#setPreferredAuthenticator(com.onegini.mobile.sdk.android.model.OneginiAuthenticator)>setPreferredAuthenticator</a>(<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> preferredAuthenticator) </code>
+                                            </th>
+                                            <td class="colLast">Marks provided authenticator as preferred.</td>
+                                        </tr>
+                                        
+                                        <tr id="i5" class="rowColor">
+                                            <td class="colFirst"><code>final OkHttpClient</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getResourceOkHttpClient()>getResourceOkHttpClient</a>() </code>
+                                            </th>
+                                            <td class="colLast">Returns a secured OkHttpClient for performing authenticated (on behalf the of currently logged in user) resource calls.</td>
+                                        </tr>
+                                        
+                                        <tr id="i6" class="altColor">
+                                            <td class="colFirst"><code>final OkHttpClient</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getImplicitResourceOkHttpClient()>getImplicitResourceOkHttpClient</a>() </code>
+                                            </th>
+                                            <td class="colLast">Returns a secured OkHttpClient for performing implicitly authenticated (on behalf the of currently implicitly logged in user) resource calls.</td>
+                                        </tr>
+                                        
+                                        <tr id="i7" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getAccessToken()>getAccessToken</a>() </code>
+                                            </th>
+                                            <td class="colLast">Returns a string with access token for the currently authenticated user, or null if no user is currently authenticated.</td>
+                                        </tr>
+                                        
+                                        <tr id="i8" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getIdToken()>getIdToken</a>() </code>
+                                            </th>
+                                            <td class="colLast">Returns a string with OpenID token in JWT format for the currently authenticated user, or null if no user is currently authenticated.</td>
+                                        </tr>
+                                        
+                                        <tr id="i9" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getIdentityProviders()>getIdentityProviders</a>() </code>
+                                            </th>
+                                            <td class="colLast">Available <a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a> items to choose from during custom registration.</td>
+                                        </tr>
+                                        
+                                        <tr id="i10" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#isUserRegistered(com.onegini.mobile.sdk.android.model.entity.UserProfile)>isUserRegistered</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile) </code>
+                                            </th>
+                                            <td class="colLast">Determines if the specified user is registered on the device.</td>
+                                        </tr>
+                                        
+                                        <tr id="i11" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#isUserEnrolledForMobileAuth(com.onegini.mobile.sdk.android.model.entity.UserProfile)>isUserEnrolledForMobileAuth</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile) </code>
+                                            </th>
+                                            <td class="colLast">Checks if user has been enrolled for for mobile authentication.</td>
+                                        </tr>
+                                        
+                                        <tr id="i12" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#isUserEnrolledForMobileAuthWithPush(com.onegini.mobile.sdk.android.model.entity.UserProfile)>isUserEnrolledForMobileAuthWithPush</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile) </code>
+                                            </th>
+                                            <td class="colLast">Checks if user has been enrolled for for mobile authentication with push.</td>
+                                        </tr>
+                                        
+                                        <tr id="i13" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#authenticateUser(com.onegini.mobile.sdk.android.model.entity.UserProfile,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticationHandler)>authenticateUser</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile, <a href=../handlers/OneginiAuthenticationHandler.html>OneginiAuthenticationHandler</a> authenticationHandler) </code>
+                                            </th>
+                                            <td class="colLast">Authenticates a specific profile.</td>
+                                        </tr>
+                                        
+                                        <tr id="i14" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#authenticateUser(com.onegini.mobile.sdk.android.model.entity.UserProfile,com.onegini.mobile.sdk.android.model.OneginiAuthenticator,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticationHandler)>authenticateUser</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile, <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> oneginiAuthenticator, <a href=../handlers/OneginiAuthenticationHandler.html>OneginiAuthenticationHandler</a> authenticationHandler) </code>
+                                            </th>
+                                            <td class="colLast">Authenticates a specific profile using a specific authenticator.</td>
+                                        </tr>
+                                        
+                                        <tr id="i15" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#authenticateUserImplicitly(com.onegini.mobile.sdk.android.model.entity.UserProfile,kotlin.Array,com.onegini.mobile.sdk.android.handlers.OneginiImplicitAuthenticationHandler)>authenticateUserImplicitly</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-array/index.html>Array</a>&lt;<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>&gt; scopes, <a href=../handlers/OneginiImplicitAuthenticationHandler.html>OneginiImplicitAuthenticationHandler</a> implicitAuthenticationHandler) </code>
+                                            </th>
+                                            <td class="colLast">Implicitly authenticates a specific profile.</td>
+                                        </tr>
+                                        
+                                        <tr id="i16" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#registerUser(com.onegini.mobile.sdk.android.model.OneginiIdentityProvider,kotlin.Array,com.onegini.mobile.sdk.android.handlers.OneginiRegistrationHandler)>registerUser</a>(<a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a> identityProvider, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-array/index.html>Array</a>&lt;<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>&gt; scopes, <a href=../handlers/OneginiRegistrationHandler.html>OneginiRegistrationHandler</a> registrationHandler) </code>
+                                            </th>
+                                            <td class="colLast">Registers a new profile using the specified OneginiIdentityProvider.</td>
+                                        </tr>
+                                        
+                                        <tr id="i17" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#registerStatelessUser(com.onegini.mobile.sdk.android.model.OneginiIdentityProvider,kotlin.Array,com.onegini.mobile.sdk.android.handlers.OneginiStatelessRegistrationHandler)>registerStatelessUser</a>(<a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a> identityProvider, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-array/index.html>Array</a>&lt;<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>&gt; scopes, <a href=../handlers/OneginiStatelessRegistrationHandler.html>OneginiStatelessRegistrationHandler</a> statelessRegistrationHandler) </code>
+                                            </th>
+                                            <td class="colLast">Registers a new stateless profile using the specified OneginiIdentityProvider.</td>
+                                        </tr>
+                                        
+                                        <tr id="i18" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#deregisterUser(com.onegini.mobile.sdk.android.model.entity.UserProfile,com.onegini.mobile.sdk.android.handlers.OneginiDeregisterUserProfileHandler)>deregisterUser</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile, <a href=../handlers/OneginiDeregisterUserProfileHandler.html>OneginiDeregisterUserProfileHandler</a> deregisterUserProfileHandler) </code>
+                                            </th>
+                                            <td class="colLast">Removes specified UserProfile on both client and server side.</td>
+                                        </tr>
+                                        
+                                        <tr id="i19" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#logout(com.onegini.mobile.sdk.android.handlers.OneginiLogoutHandler)>logout</a>(<a href=../handlers/OneginiLogoutHandler.html>OneginiLogoutHandler</a> oneginiLogoutHandler) </code>
+                                            </th>
+                                            <td class="colLast">Logs active user out - removes access token from memory.</td>
+                                        </tr>
+                                        
+                                        <tr id="i20" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#changePin(com.onegini.mobile.sdk.android.handlers.OneginiChangePinHandler)>changePin</a>(<a href=../handlers/OneginiChangePinHandler.html>OneginiChangePinHandler</a> changePinHandler) </code>
+                                            </th>
+                                            <td class="colLast">Changes current pin.</td>
+                                        </tr>
+                                        
+                                        <tr id="i21" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#validatePinWithPolicy(kotlin.CharArray,com.onegini.mobile.sdk.android.handlers.OneginiPinValidationHandler)>validatePinWithPolicy</a>(<a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-char-array/index.html>CharArray</a> pin, <a href=../handlers/OneginiPinValidationHandler.html>OneginiPinValidationHandler</a> pinValidationHandler) </code>
+                                            </th>
+                                            <td class="colLast">Validates the given pin with a PIN policy set on the Token Server side.</td>
+                                        </tr>
+                                        
+                                        <tr id="i22" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#enrollUserForMobileAuth(com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthEnrollmentHandler)>enrollUserForMobileAuth</a>(<a href=../handlers/OneginiMobileAuthEnrollmentHandler.html>OneginiMobileAuthEnrollmentHandler</a> handler) </code>
+                                            </th>
+                                            <td class="colLast">Enrolls authenticated user profile for mobile authentication.</td>
+                                        </tr>
+                                        
+                                        <tr id="i23" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#enrollUserForMobileAuthWithPush(java.lang.String,com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthWithPushEnrollmentHandler)>enrollUserForMobileAuthWithPush</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> registrationId, <a href=../handlers/OneginiMobileAuthWithPushEnrollmentHandler.html>OneginiMobileAuthWithPushEnrollmentHandler</a> enrollmentHandler) </code>
+                                            </th>
+                                            <td class="colLast">Enrolls authenticated user profile for mobile authentication with push.</td>
+                                        </tr>
+                                        
+                                        <tr id="i24" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#handleMobileAuthWithPushRequest(com.onegini.mobile.sdk.android.model.entity.OneginiMobileAuthWithPushRequest,com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthenticationHandler)>handleMobileAuthWithPushRequest</a>(<a href=../model/entity/OneginiMobileAuthWithPushRequest.html>OneginiMobileAuthWithPushRequest</a> oneginiMobileAuthWithPushRequest, <a href=../handlers/OneginiMobileAuthenticationHandler.html>OneginiMobileAuthenticationHandler</a> mobileAuthenticationHandler) </code>
+                                            </th>
+                                            <td class="colLast">Handles mobile authentication request.</td>
+                                        </tr>
+                                        
+                                        <tr id="i25" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#handleMobileAuthWithOtp(java.lang.String,com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthWithOtpHandler)>handleMobileAuthWithOtp</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> otpCode, <a href=../handlers/OneginiMobileAuthWithOtpHandler.html>OneginiMobileAuthWithOtpHandler</a> mobileAuthWithOtpHandler) </code>
+                                            </th>
+                                            <td class="colLast">Handles mobile authentication request.</td>
+                                        </tr>
+                                        
+                                        <tr id="i26" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getAllAuthenticators(com.onegini.mobile.sdk.android.model.entity.UserProfile)>getAllAuthenticators</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile) </code>
+                                            </th>
+                                            <td class="colLast">Returns a set containing all authenticators enabled on the server side and supported by the device, including those that were not set via <a href=OneginiClientBuilder.html>OneginiClientBuilder</a>.</td>
+                                        </tr>
+                                        
+                                        <tr id="i27" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getRegisteredAuthenticators(com.onegini.mobile.sdk.android.model.entity.UserProfile)>getRegisteredAuthenticators</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile) </code>
+                                            </th>
+                                            <td class="colLast">Returns a set containing the registered authenticators which are supported by both client and server side.</td>
+                                        </tr>
+                                        
+                                        <tr id="i28" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a>&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getNotRegisteredAuthenticators(com.onegini.mobile.sdk.android.model.entity.UserProfile)>getNotRegisteredAuthenticators</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile) </code>
+                                            </th>
+                                            <td class="colLast">Returns a set containing the authenticators that are not registered yet but are supported both client and server side.</td>
+                                        </tr>
+                                        
+                                        <tr id="i29" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#registerAuthenticator(com.onegini.mobile.sdk.android.model.OneginiAuthenticator,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticatorRegistrationHandler)>registerAuthenticator</a>(<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> authenticator, <a href=../handlers/OneginiAuthenticatorRegistrationHandler.html>OneginiAuthenticatorRegistrationHandler</a> handler) </code>
+                                            </th>
+                                            <td class="colLast">Attempts to register provided authenticator.</td>
+                                        </tr>
+                                        
+                                        <tr id="i30" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#deregisterAuthenticator(com.onegini.mobile.sdk.android.model.OneginiAuthenticator,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticatorDeregistrationHandler)>deregisterAuthenticator</a>(<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> authenticator, <a href=../handlers/OneginiAuthenticatorDeregistrationHandler.html>OneginiAuthenticatorDeregistrationHandler</a> handler) </code>
+                                            </th>
+                                            <td class="colLast">Attempts to deregister provided authenticator.</td>
+                                        </tr>
+                                        
+                                        <tr id="i31" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getPendingMobileAuthWithPushRequests(com.onegini.mobile.sdk.android.handlers.OneginiPendingMobileAuthWithPushRequestsHandler)>getPendingMobileAuthWithPushRequests</a>(<a href=../handlers/OneginiPendingMobileAuthWithPushRequestsHandler.html>OneginiPendingMobileAuthWithPushRequestsHandler</a> handler) </code>
+                                            </th>
+                                            <td class="colLast">Returns pending mobile authentication with push requests ordered by the creation date.</td>
+                                        </tr>
+                                        
+                                        <tr id="i32" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#getAppToWebSingleSignOn(android.net.Uri,com.onegini.mobile.sdk.android.handlers.OneginiAppToWebSingleSignOnHandler)>getAppToWebSingleSignOn</a>(<a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=../handlers/OneginiAppToWebSingleSignOnHandler.html>OneginiAppToWebSingleSignOnHandler</a> handler) </code>
+                                            </th>
+                                            <td class="colLast">Returns a Single Sign-On uri to continue the session in an external browser.</td>
+                                        </tr>
+                                        
+                                        <tr id="i33" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#denyMobileAuthWithPushRequest(com.onegini.mobile.sdk.android.model.entity.OneginiMobileAuthWithPushRequest,com.onegini.mobile.sdk.android.handlers.OneginiDenyMobileAuthWithPushRequestHandler)>denyMobileAuthWithPushRequest</a>(<a href=../model/entity/OneginiMobileAuthWithPushRequest.html>OneginiMobileAuthWithPushRequest</a> request, <a href=../handlers/OneginiDenyMobileAuthWithPushRequestHandler.html>OneginiDenyMobileAuthWithPushRequestHandler</a> handler) </code>
+                                            </th>
+                                            <td class="colLast">Denies mobile authentication with push request.</td>
+                                        </tr>
+                                        
+                                        <tr id="i34" class="altColor">
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=UserClient.html#refreshStatelessSession(com.onegini.mobile.sdk.android.handlers.OneginiRefreshStatelessSessionHandler)>refreshStatelessSession</a>(<a href=../handlers/OneginiRefreshStatelessSessionHandler.html>OneginiRefreshStatelessSessionHandler</a> handler) </code>
+                                            </th>
+                                            <td class="colLast">Attempts to refresh stateless session</td>
+                                        </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <ul class="blockList">
+                                
+                                    <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
+                                        <!--   -->
+                                    </a>
+                                        <h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+                                        <code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString,
+                                            wait, wait, wait</code></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="details">
+            <ul class="blockList">
+                <li class="blockList">
+                    <!-- ========= CONSTRUCTOR DETAIL ======== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="constructor.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Constructor Detail</h3>
+                                
+                                <a name="UserClient(com.onegini.mobile.sdk.android.internal.SDKClient)"></a>
+                                <ul class="blockList">
+                                    <li class="blockList">
+                                        <h4>UserClient</h4>
+                                        <pre>UserClient(<a href=../internal/SDKClient.html>SDKClient</a> sdkClient)</pre>
+                                        <div class="block"></div>
+                                        
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <!-- ============ METHOD DETAIL ========== -->
+                    
+                    <section role="region">
+                        <ul class="blockList">
+                            <li class="blockList"><a id="method.detail">
+                                <!--   -->
+                            </a>
+                                <h3>Method Detail</h3>
+                                
+                                <a id="getUserProfiles()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getUserProfiles</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/entity/UserProfile.html>UserProfile</a>&gt; <a href=UserClient.html#getUserProfiles()>getUserProfiles</a>()</pre>
+                                        <div class="block"><p>Returns Set of active UserProfile models that can be used for authentication.</p></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>Set of active UserProfile models</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getAuthenticatedUserProfile()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getAuthenticatedUserProfile</h4>
+                                        <pre class="methodSignature"> final <a href=../model/entity/UserProfile.html>UserProfile</a> <a href=UserClient.html#getAuthenticatedUserProfile()>getAuthenticatedUserProfile</a>()</pre>
+                                        <div class="block"><p>Returns the <a href=../model/entity/UserProfile.html>UserProfile</a> object for the currently authenticated user, or null, if no user is currently authenticated.</p></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>UserProfile of the authenticated user or null</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getImplicitlyAuthenticatedUserProfile()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getImplicitlyAuthenticatedUserProfile</h4>
+                                        <pre class="methodSignature"> final <a href=../model/entity/UserProfile.html>UserProfile</a> <a href=UserClient.html#getImplicitlyAuthenticatedUserProfile()>getImplicitlyAuthenticatedUserProfile</a>()</pre>
+                                        <div class="block"><p>Returns the <a href=../model/entity/UserProfile.html>UserProfile</a> object for the currently implicitly authenticated user, or null, if no user is currently implicitly authenticated.</p></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>UserProfile of the implicitly authenticated user or null</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getPreferredAuthenticator()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getPreferredAuthenticator</h4>
+                                        <pre class="methodSignature"> final <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> <a href=UserClient.html#getPreferredAuthenticator()>getPreferredAuthenticator</a>()</pre>
+                                        <div class="block"><p>Returns the preferred authenticator which will be used for user authentication. By default of PIN type. Preferred authenticator can be changed any time, by calling UserClient.setPreferredAuthenticator.</p></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p><a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> set as preferred or <code>NULL</code> in case no authentication method is possible (e.g. user is not authenticated)</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="setPreferredAuthenticator(com.onegini.mobile.sdk.android.model.OneginiAuthenticator)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setPreferredAuthenticator</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#setPreferredAuthenticator(com.onegini.mobile.sdk.android.model.OneginiAuthenticator)>setPreferredAuthenticator</a>(<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> preferredAuthenticator)</pre>
+                                        <div class="block"><p>Marks provided authenticator as preferred. If not explicitly specified otherwise, the SDK will use preferred authenticator at all times.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>preferredAuthenticator</code> - <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> authenticator to be set as preferred</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getResourceOkHttpClient()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getResourceOkHttpClient</h4>
+                                        <pre class="methodSignature"> final OkHttpClient <a href=UserClient.html#getResourceOkHttpClient()>getResourceOkHttpClient</a>()</pre>
+                                        <div class="block"><p>Returns a secured OkHttpClient for performing authenticated (on behalf the of currently logged in user) resource calls. The client will add the authorization header with a user's access token whenever it's available.</p><p>Security features:&lt;br&gt;&lt;/br&gt;</p><ul><li><p>certificate pinning&lt;br&gt;&lt;/br&gt;</p></li><li><p>root and debug detection&lt;br&gt;&lt;/br&gt;</p></li><li><p>payload encryption&lt;br&gt;&lt;/br&gt;</p></li></ul></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>Instance of okhttp3.OkHttpClient secured by the SDK</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getImplicitResourceOkHttpClient()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getImplicitResourceOkHttpClient</h4>
+                                        <pre class="methodSignature"> final OkHttpClient <a href=UserClient.html#getImplicitResourceOkHttpClient()>getImplicitResourceOkHttpClient</a>()</pre>
+                                        <div class="block"><p>Returns a secured OkHttpClient for performing implicitly authenticated (on behalf the of currently implicitly logged in user) resource calls. The client will add the authorization header with a user's implicit access token whenever it's available.</p><p>Security features:&lt;br&gt;&lt;/br&gt;</p><ul><li><p>certificate pinning&lt;br&gt;&lt;/br&gt;</p></li><li><p>root and debug detection&lt;br&gt;&lt;/br&gt;</p></li><li><p>payload encryption&lt;br&gt;&lt;/br&gt;</p></li></ul></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>Instance of okhttp3.OkHttpClient secured by the SDK</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getAccessToken()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getAccessToken</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> <a href=UserClient.html#getAccessToken()>getAccessToken</a>()</pre>
+                                        <div class="block"><p>Returns a string with access token for the currently authenticated user, or null if no user is currently authenticated.</p><p>Warning: Do not use this method if you want to fetch resources from your resource gateway: use the resource methods instead.</p></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>String with access token or null</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getIdToken()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getIdToken</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> <a href=UserClient.html#getIdToken()>getIdToken</a>()</pre>
+                                        <div class="block"><p>Returns a string with OpenID token in JWT format for the currently authenticated user, or null if no user is currently authenticated.</p><p>Warning: To get OpenID token user needs to be registered with &quot;openid&quot; scope.</p></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>String with OpenID token or null</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getIdentityProviders()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getIdentityProviders</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a>&gt; <a href=UserClient.html#getIdentityProviders()>getIdentityProviders</a>()</pre>
+                                        <div class="block"><p>Available <a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a> items to choose from during custom registration.</p></div>
+
+                                        <dl>
+
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>Set of active <a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a> items that can be used for custom registration</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="isUserRegistered(com.onegini.mobile.sdk.android.model.entity.UserProfile)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isUserRegistered</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a> <a href=UserClient.html#isUserRegistered(com.onegini.mobile.sdk.android.model.entity.UserProfile)>isUserRegistered</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile)</pre>
+                                        <div class="block"><p>Determines if the specified user is registered on the device.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>userProfile</code> - the <a href=../model/entity/UserProfile.html>UserProfile</a> that we want to check, the object can't be null</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>true if the user is registered on the device</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="isUserEnrolledForMobileAuth(com.onegini.mobile.sdk.android.model.entity.UserProfile)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isUserEnrolledForMobileAuth</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a> <a href=UserClient.html#isUserEnrolledForMobileAuth(com.onegini.mobile.sdk.android.model.entity.UserProfile)>isUserEnrolledForMobileAuth</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile)</pre>
+                                        <div class="block"><p>Checks if user has been enrolled for for mobile authentication.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>userProfile</code> - the <a href=../model/entity/UserProfile.html>UserProfile</a> that we want to check, the object can't be null</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>true if the user has been enrolled for mobile authentication</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="isUserEnrolledForMobileAuthWithPush(com.onegini.mobile.sdk.android.model.entity.UserProfile)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>isUserEnrolledForMobileAuthWithPush</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/java/lang/Boolean.html>Boolean</a> <a href=UserClient.html#isUserEnrolledForMobileAuthWithPush(com.onegini.mobile.sdk.android.model.entity.UserProfile)>isUserEnrolledForMobileAuthWithPush</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile)</pre>
+                                        <div class="block"><p>Checks if user has been enrolled for for mobile authentication with push.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>userProfile</code> - the <a href=../model/entity/UserProfile.html>UserProfile</a> that we want to check, the object can't be null</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>true if the user has been enrolled for mobile authentication</p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="authenticateUser(com.onegini.mobile.sdk.android.model.entity.UserProfile,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticationHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>authenticateUser</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#authenticateUser(com.onegini.mobile.sdk.android.model.entity.UserProfile,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticationHandler)>authenticateUser</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile, <a href=../handlers/OneginiAuthenticationHandler.html>OneginiAuthenticationHandler</a> authenticationHandler)</pre>
+                                        <div class="block"><p>Authenticates a specific profile. The authenticated profile will be returned with a success callback.</p><p>This flow checks, if (encrypted) refresh token is available, then uses the preferred authenticator to decrypt the refresh token in order to obtain an access token.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>userProfile</code> - the <a href=../model/entity/UserProfile.html>UserProfile</a> that we want to authenticate, the UserProfile object can't be null</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>authenticationHandler</code> - the authentication handler to return the authentication result to</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="authenticateUser(com.onegini.mobile.sdk.android.model.entity.UserProfile,com.onegini.mobile.sdk.android.model.OneginiAuthenticator,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticationHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>authenticateUser</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#authenticateUser(com.onegini.mobile.sdk.android.model.entity.UserProfile,com.onegini.mobile.sdk.android.model.OneginiAuthenticator,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticationHandler)>authenticateUser</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile, <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> oneginiAuthenticator, <a href=../handlers/OneginiAuthenticationHandler.html>OneginiAuthenticationHandler</a> authenticationHandler)</pre>
+                                        <div class="block"><p>Authenticates a specific profile using a specific authenticator. The authenticated profile will be returned with a success callback.</p><p>This flow checks, if (encrypted) refresh token is available, then uses the specified authenticator to decrypt the refresh token in order to obtain an access token.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>userProfile</code> - the <a href=../model/entity/UserProfile.html>UserProfile</a> that we want to authenticate, the UserProfile object can't be null</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>oneginiAuthenticator</code> - the <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> that we want to authenticate the userProfile with.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>authenticationHandler</code> - the authentication handler to return the authentication result to</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="authenticateUserImplicitly(com.onegini.mobile.sdk.android.model.entity.UserProfile,kotlin.Array,com.onegini.mobile.sdk.android.handlers.OneginiImplicitAuthenticationHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>authenticateUserImplicitly</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#authenticateUserImplicitly(com.onegini.mobile.sdk.android.model.entity.UserProfile,kotlin.Array,com.onegini.mobile.sdk.android.handlers.OneginiImplicitAuthenticationHandler)>authenticateUserImplicitly</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-array/index.html>Array</a>&lt;<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>&gt; scopes, <a href=../handlers/OneginiImplicitAuthenticationHandler.html>OneginiImplicitAuthenticationHandler</a> implicitAuthenticationHandler)</pre>
+                                        <div class="block"><p>Implicitly authenticates a specific profile. The implicitly authenticated profile will be returned with a success callback.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>userProfile</code> - the <a href=../model/entity/UserProfile.html>UserProfile</a> object that we want to authenticate.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>scopes</code> - the scopes array that we want to request, it should be a subset of the scopes already granted to the UserProfile during registration.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>implicitAuthenticationHandler</code> - the implicit authentication handler to return the implicit authentication result to.</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="registerUser(com.onegini.mobile.sdk.android.model.OneginiIdentityProvider,kotlin.Array,com.onegini.mobile.sdk.android.handlers.OneginiRegistrationHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>registerUser</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#registerUser(com.onegini.mobile.sdk.android.model.OneginiIdentityProvider,kotlin.Array,com.onegini.mobile.sdk.android.handlers.OneginiRegistrationHandler)>registerUser</a>(<a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a> identityProvider, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-array/index.html>Array</a>&lt;<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>&gt; scopes, <a href=../handlers/OneginiRegistrationHandler.html>OneginiRegistrationHandler</a> registrationHandler)</pre>
+                                        <div class="block"><p>Registers a new profile using the specified OneginiIdentityProvider. The new profile will be generated during the registration process and returned with a success callback.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>identityProvider</code> - the <a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a> that is used for the registration or null for default.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>scopes</code> - the scopes authentication is requested for, when no scopes are requested the default scopes of the application will be used.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>registrationHandler</code> - the registration handler to return the authentication result to</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="registerStatelessUser(com.onegini.mobile.sdk.android.model.OneginiIdentityProvider,kotlin.Array,com.onegini.mobile.sdk.android.handlers.OneginiStatelessRegistrationHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>registerStatelessUser</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#registerStatelessUser(com.onegini.mobile.sdk.android.model.OneginiIdentityProvider,kotlin.Array,com.onegini.mobile.sdk.android.handlers.OneginiStatelessRegistrationHandler)>registerStatelessUser</a>(<a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a> identityProvider, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-array/index.html>Array</a>&lt;<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a>&gt; scopes, <a href=../handlers/OneginiStatelessRegistrationHandler.html>OneginiStatelessRegistrationHandler</a> statelessRegistrationHandler)</pre>
+                                        <div class="block"><p>Registers a new stateless profile using the specified OneginiIdentityProvider. Browser based identity providers are not supported.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>identityProvider</code> - the <a href=../model/OneginiIdentityProvider.html>OneginiIdentityProvider</a> that is used for the registration or null for default.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>scopes</code> - the scopes authentication is requested for, when no scopes are requested the default scopes of the application will be used.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>statelessRegistrationHandler</code> - the registration handler to return the authentication result to</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="deregisterUser(com.onegini.mobile.sdk.android.model.entity.UserProfile,com.onegini.mobile.sdk.android.handlers.OneginiDeregisterUserProfileHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>deregisterUser</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#deregisterUser(com.onegini.mobile.sdk.android.model.entity.UserProfile,com.onegini.mobile.sdk.android.handlers.OneginiDeregisterUserProfileHandler)>deregisterUser</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile, <a href=../handlers/OneginiDeregisterUserProfileHandler.html>OneginiDeregisterUserProfileHandler</a> deregisterUserProfileHandler)</pre>
+                                        <div class="block"><p>Removes specified UserProfile on both client and server side.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>userProfile</code> - UserProfile that should be deregistered, the UserProfile object can't be null</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>deregisterUserProfileHandler</code> - the handler to return operation result to</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="logout(com.onegini.mobile.sdk.android.handlers.OneginiLogoutHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>logout</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#logout(com.onegini.mobile.sdk.android.handlers.OneginiLogoutHandler)>logout</a>(<a href=../handlers/OneginiLogoutHandler.html>OneginiLogoutHandler</a> oneginiLogoutHandler)</pre>
+                                        <div class="block"><p>Logs active user out - removes access token from memory.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>oneginiLogoutHandler</code> - <a href=../handlers/OneginiLogoutHandler.html>OneginiLogoutHandler</a> the handler to return the logout result to</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="changePin(com.onegini.mobile.sdk.android.handlers.OneginiChangePinHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>changePin</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#changePin(com.onegini.mobile.sdk.android.handlers.OneginiChangePinHandler)>changePin</a>(<a href=../handlers/OneginiChangePinHandler.html>OneginiChangePinHandler</a> changePinHandler)</pre>
+                                        <div class="block"><p>Changes current pin.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>changePinHandler</code> - <a href=../handlers/OneginiChangePinHandler.html>OneginiChangePinHandler</a> change pin handler</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="validatePinWithPolicy(kotlin.CharArray,com.onegini.mobile.sdk.android.handlers.OneginiPinValidationHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>validatePinWithPolicy</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#validatePinWithPolicy(kotlin.CharArray,com.onegini.mobile.sdk.android.handlers.OneginiPinValidationHandler)>validatePinWithPolicy</a>(<a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-char-array/index.html>CharArray</a> pin, <a href=../handlers/OneginiPinValidationHandler.html>OneginiPinValidationHandler</a> pinValidationHandler)</pre>
+                                        <div class="block"><p>Validates the given pin with a PIN policy set on the Token Server side.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>pin</code> - the pin to validate</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>pinValidationHandler</code> - the pin validation handler to return result to</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="enrollUserForMobileAuth(com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthEnrollmentHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>enrollUserForMobileAuth</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#enrollUserForMobileAuth(com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthEnrollmentHandler)>enrollUserForMobileAuth</a>(<a href=../handlers/OneginiMobileAuthEnrollmentHandler.html>OneginiMobileAuthEnrollmentHandler</a> handler)</pre>
+                                        <div class="block"><p>Enrolls authenticated user profile for mobile authentication.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>handler</code> - <a href=../handlers/OneginiMobileAuthEnrollmentHandler.html>OneginiMobileAuthEnrollmentHandler</a> handler to communicate enrollment result back to the application</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="enrollUserForMobileAuthWithPush(java.lang.String,com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthWithPushEnrollmentHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>enrollUserForMobileAuthWithPush</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#enrollUserForMobileAuthWithPush(java.lang.String,com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthWithPushEnrollmentHandler)>enrollUserForMobileAuthWithPush</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> registrationId, <a href=../handlers/OneginiMobileAuthWithPushEnrollmentHandler.html>OneginiMobileAuthWithPushEnrollmentHandler</a> enrollmentHandler)</pre>
+                                        <div class="block"><p>Enrolls authenticated user profile for mobile authentication with push. Push notification capabilities are a prerequisite. When mobile authentication capabilities are available a registration id can be fetched from the Google Cloud Messaging service.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>registrationId</code> - the registration id fetched from GCM, used as push token.</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>enrollmentHandler</code> - instance of <a href=../handlers/OneginiMobileAuthWithPushEnrollmentHandler.html>OneginiMobileAuthWithPushEnrollmentHandler</a> to handle the enrollment result</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="handleMobileAuthWithPushRequest(com.onegini.mobile.sdk.android.model.entity.OneginiMobileAuthWithPushRequest,com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthenticationHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>handleMobileAuthWithPushRequest</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#handleMobileAuthWithPushRequest(com.onegini.mobile.sdk.android.model.entity.OneginiMobileAuthWithPushRequest,com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthenticationHandler)>handleMobileAuthWithPushRequest</a>(<a href=../model/entity/OneginiMobileAuthWithPushRequest.html>OneginiMobileAuthWithPushRequest</a> oneginiMobileAuthWithPushRequest, <a href=../handlers/OneginiMobileAuthenticationHandler.html>OneginiMobileAuthenticationHandler</a> mobileAuthenticationHandler)</pre>
+                                        <div class="block"><p>Handles mobile authentication request.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>oneginiMobileAuthWithPushRequest</code> - instance of <a href=../model/entity/OneginiMobileAuthWithPushRequest.html>OneginiMobileAuthWithPushRequest</a> with mobile authentication request data</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>mobileAuthenticationHandler</code> - instance of <a href=../handlers/OneginiMobileAuthenticationHandler.html>OneginiMobileAuthenticationHandler</a> to handle authentication result</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="handleMobileAuthWithOtp(java.lang.String,com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthWithOtpHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>handleMobileAuthWithOtp</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#handleMobileAuthWithOtp(java.lang.String,com.onegini.mobile.sdk.android.handlers.OneginiMobileAuthWithOtpHandler)>handleMobileAuthWithOtp</a>(<a href=https://developer.android.com/reference/kotlin/java/lang/String.html>String</a> otpCode, <a href=../handlers/OneginiMobileAuthWithOtpHandler.html>OneginiMobileAuthWithOtpHandler</a> mobileAuthWithOtpHandler)</pre>
+                                        <div class="block"><p>Handles mobile authentication request.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>otpCode</code> - the <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html>String</a> with the One Time Password code</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>mobileAuthWithOtpHandler</code> - instance of <a href=../handlers/OneginiMobileAuthWithOtpHandler.html>OneginiMobileAuthWithOtpHandler</a> to handle authentication result</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getAllAuthenticators(com.onegini.mobile.sdk.android.model.entity.UserProfile)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getAllAuthenticators</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a>&gt; <a href=UserClient.html#getAllAuthenticators(com.onegini.mobile.sdk.android.model.entity.UserProfile)>getAllAuthenticators</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile)</pre>
+                                        <div class="block"><p>Returns a set containing all authenticators enabled on the server side and supported by the device, including those that were not set via <a href=OneginiClientBuilder.html>OneginiClientBuilder</a>.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>userProfile</code> - the <a href=../model/entity/UserProfile.html>UserProfile</a> for which we want to get the authenticators, the UserProfile object can't be null</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>A set of supported authenticators of type <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a></p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getRegisteredAuthenticators(com.onegini.mobile.sdk.android.model.entity.UserProfile)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getRegisteredAuthenticators</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a>&gt; <a href=UserClient.html#getRegisteredAuthenticators(com.onegini.mobile.sdk.android.model.entity.UserProfile)>getRegisteredAuthenticators</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile)</pre>
+                                        <div class="block"><p>Returns a set containing the registered authenticators which are supported by both client and server side. Authenticator registering is not the same as setting it via <a href=OneginiClientBuilder.html>OneginiClientBuilder</a>. Check .registerAuthenticator</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>userProfile</code> - the <a href=../model/entity/UserProfile.html>UserProfile</a> for which we want to get authenticators, the UserProfile object can't be null</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>A set of registered authenticators of type <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a></p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getNotRegisteredAuthenticators(com.onegini.mobile.sdk.android.model.entity.UserProfile)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getNotRegisteredAuthenticators</h4>
+                                        <pre class="methodSignature"> final <a href=https://developer.android.com/reference/kotlin/java/util/Set.html>Set</a>&lt;<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a>&gt; <a href=UserClient.html#getNotRegisteredAuthenticators(com.onegini.mobile.sdk.android.model.entity.UserProfile)>getNotRegisteredAuthenticators</a>(<a href=../model/entity/UserProfile.html>UserProfile</a> userProfile)</pre>
+                                        <div class="block"><p>Returns a set containing the authenticators that are not registered yet but are supported both client and server side.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>userProfile</code> - the <a href=../model/entity/UserProfile.html>UserProfile</a> for which we want to get authenticators, the UserProfile object can't be null</dd>
+                                            
+                                            
+                                        
+
+                                        
+                                            <dt><span class="returnLabel">Returns:</span></dt>
+                                            <dd><p>A set of not registered authenticators of type <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a></p></dd>
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="registerAuthenticator(com.onegini.mobile.sdk.android.model.OneginiAuthenticator,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticatorRegistrationHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>registerAuthenticator</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#registerAuthenticator(com.onegini.mobile.sdk.android.model.OneginiAuthenticator,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticatorRegistrationHandler)>registerAuthenticator</a>(<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> authenticator, <a href=../handlers/OneginiAuthenticatorRegistrationHandler.html>OneginiAuthenticatorRegistrationHandler</a> handler)</pre>
+                                        <div class="block"><p>Attempts to register provided authenticator. User input may be required in order to complete this process.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>authenticator</code> - <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> authenticator to register</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>handler</code> - <a href=../handlers/OneginiAuthenticatorRegistrationHandler.html>OneginiAuthenticatorRegistrationHandler</a> handler to communicate registration result back to the application</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="deregisterAuthenticator(com.onegini.mobile.sdk.android.model.OneginiAuthenticator,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticatorDeregistrationHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>deregisterAuthenticator</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#deregisterAuthenticator(com.onegini.mobile.sdk.android.model.OneginiAuthenticator,com.onegini.mobile.sdk.android.handlers.OneginiAuthenticatorDeregistrationHandler)>deregisterAuthenticator</a>(<a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> authenticator, <a href=../handlers/OneginiAuthenticatorDeregistrationHandler.html>OneginiAuthenticatorDeregistrationHandler</a> handler)</pre>
+                                        <div class="block"><p>Attempts to deregister provided authenticator.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>authenticator</code> - <a href=../model/OneginiAuthenticator.html>OneginiAuthenticator</a> authenticator to deregister</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>handler</code> - <a href=../handlers/OneginiAuthenticatorDeregistrationHandler.html>OneginiAuthenticatorDeregistrationHandler</a> handler to communicate deregistration result back to the application</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getPendingMobileAuthWithPushRequests(com.onegini.mobile.sdk.android.handlers.OneginiPendingMobileAuthWithPushRequestsHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getPendingMobileAuthWithPushRequests</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#getPendingMobileAuthWithPushRequests(com.onegini.mobile.sdk.android.handlers.OneginiPendingMobileAuthWithPushRequestsHandler)>getPendingMobileAuthWithPushRequests</a>(<a href=../handlers/OneginiPendingMobileAuthWithPushRequestsHandler.html>OneginiPendingMobileAuthWithPushRequestsHandler</a> handler)</pre>
+                                        <div class="block"><p>Returns pending mobile authentication with push requests ordered by the creation date.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>handler</code> - <a href=../handlers/OneginiPendingMobileAuthWithPushRequestsHandler.html>OneginiPendingMobileAuthWithPushRequestsHandler</a> handler to return a result back to the application</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="getAppToWebSingleSignOn(android.net.Uri,com.onegini.mobile.sdk.android.handlers.OneginiAppToWebSingleSignOnHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getAppToWebSingleSignOn</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#getAppToWebSingleSignOn(android.net.Uri,com.onegini.mobile.sdk.android.handlers.OneginiAppToWebSingleSignOnHandler)>getAppToWebSingleSignOn</a>(<a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, <a href=../handlers/OneginiAppToWebSingleSignOnHandler.html>OneginiAppToWebSingleSignOnHandler</a> handler)</pre>
+                                        <div class="block"><p>Returns a Single Sign-On uri to continue the session in an external browser.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>uri</code> - <a href=https://developer.android.com/reference/kotlin/android/net/Uri.html>Uri</a> uri, for which the Single Sign-On token is requested</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>handler</code> - <a href=../handlers/OneginiAppToWebSingleSignOnHandler.html>OneginiAppToWebSingleSignOnHandler</a> handler to return the result back to the application</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="denyMobileAuthWithPushRequest(com.onegini.mobile.sdk.android.model.entity.OneginiMobileAuthWithPushRequest,com.onegini.mobile.sdk.android.handlers.OneginiDenyMobileAuthWithPushRequestHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>denyMobileAuthWithPushRequest</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#denyMobileAuthWithPushRequest(com.onegini.mobile.sdk.android.model.entity.OneginiMobileAuthWithPushRequest,com.onegini.mobile.sdk.android.handlers.OneginiDenyMobileAuthWithPushRequestHandler)>denyMobileAuthWithPushRequest</a>(<a href=../model/entity/OneginiMobileAuthWithPushRequest.html>OneginiMobileAuthWithPushRequest</a> request, <a href=../handlers/OneginiDenyMobileAuthWithPushRequestHandler.html>OneginiDenyMobileAuthWithPushRequestHandler</a> handler)</pre>
+                                        <div class="block"><p>Denies mobile authentication with push request.</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>request</code> - <a href=../model/entity/OneginiMobileAuthWithPushRequest.html>OneginiMobileAuthWithPushRequest</a> mobile authentication with push request to deny</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>handler</code> - <a href=../handlers/OneginiDenyMobileAuthWithPushRequestHandler.html>OneginiDenyMobileAuthWithPushRequestHandler</a> handler to return the result back to the application</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                                <a id="refreshStatelessSession(com.onegini.mobile.sdk.android.handlers.OneginiRefreshStatelessSessionHandler)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockListLast"
+                                          >
+                                    <li class="blockList">
+                                        <h4>refreshStatelessSession</h4>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-unit/index.html>Unit</a> <a href=UserClient.html#refreshStatelessSession(com.onegini.mobile.sdk.android.handlers.OneginiRefreshStatelessSessionHandler)>refreshStatelessSession</a>(<a href=../handlers/OneginiRefreshStatelessSessionHandler.html>OneginiRefreshStatelessSessionHandler</a> handler)</pre>
+                                        <div class="block"><p>Attempts to refresh stateless session</p></div>
+
+                                        <dl>
+
+                                        
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>handler</code> - <a href=../handlers/OneginiRefreshStatelessSessionHandler.html>OneginiRefreshStatelessSessionHandler</a> handler to return the result back to the application</dd>
+                                            
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        </dl>
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </section>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer role="contentinfo">
+    <nav role="navigation">
+        <!-- ======= START OF BOTTOM NAVBAR ====== -->
+        <div class="bottomNav"><a id="navbar.bottom">
+            <!--   -->
+        </a>
+            <div class="skipNav"><a href="#skip.navbar.bottom" title="Skip navigation links">Skip navigation links</a>
+            </div>
+            <a id="navbar.bottom.firstrow">
+                <!--   -->
+            </a>
+            <ul class="navList" title="Navigation">
+    <li><a href="../../../../../../index.html">Overview</a></li>
+    
+    <li><a href="package-summary.html">Package</a></li>
+    
+    <li class="navBarCell1Rev">Class</li>
+    
+    <li><a href="package-tree.html">Tree</a></li>
+    
+    <li><a href="../../../../../../deprecated.html">Deprecated</a></li>
+    <li><a href="../../../../../../index-files/index-1.html">Index</a></li>
+    <li>Help</li>
+</ul></div>
+        <a id="skip.navbar.bottom">
+            <!--   -->
+        </a>
+        <div class="subNav">
+<ul class="navList" id="allclasses_navbar_top" style="display: block;">
+    <li><a href="../../../../../../allclasses.html">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+</div>
+<a id="skip.navbar.top">
+<!--   -->
+</a></div><!-- ======== END OF BOTTOM NAVBAR ======= -->
+    </nav>
+</footer><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0"
+    style="display: none;"></ul>
+<span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span>
+</body>
+</html>

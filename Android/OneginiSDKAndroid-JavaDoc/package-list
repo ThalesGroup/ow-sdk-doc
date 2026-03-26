@@ -1,0 +1,154 @@
+$dokka.format:javadoc-v1
+$dokka.linkExtension:html
+$dokka.location:com.onegini.mobile.sdk.android.client/OneginiClient.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/client/OneginiClient.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiAppToWebSingleSignOnError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiAppToWebSingleSignOnError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiAuthenticationError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiAuthenticationError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiAuthenticatorDeregistrationError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiAuthenticatorDeregistrationError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiAuthenticatorRegistrationError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiAuthenticatorRegistrationError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiChangePinError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiChangePinError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiDenyMobileAuthWithPushRequestError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiDenyMobileAuthWithPushRequestError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiDeregistrationError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiDeregistrationError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiDeviceAuthenticationError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiDeviceAuthenticationError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiImplicitTokenRequestError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiImplicitTokenRequestError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiInitializationError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiInitializationError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiLogoutError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiLogoutError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiMobileAuthEnrollmentError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiMobileAuthEnrollmentError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiMobileAuthWithOtpError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiMobileAuthWithOtpError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiMobileAuthWithPushEnrollmentError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiMobileAuthWithPushEnrollmentError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiMobileAuthenticationError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiMobileAuthenticationError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiPendingMobileAuthWithPushRequestError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiPendingMobileAuthWithPushRequestError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiPinValidationError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiPinValidationError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiRefreshMobileAuthPushTokenError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiRefreshMobileAuthPushTokenError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiRefreshStatelessSessionError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiRefreshStatelessSessionError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiRegistrationError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiRegistrationError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.handlers.error/OneginiResetError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/handlers/error/OneginiResetError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.controller.user.action.mobileauth/MobileAuthAuthenticatorSubaction.AuthenticatorResultCallback///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/controller/user/action/mobileauth/MobileAuthAuthenticatorSubaction.AuthenticatorResultCallback.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.controller.user.action.pin/AuthenticationSubaction.AuthenticatorResultCallback///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/controller/user/action/pin/AuthenticationSubaction.AuthenticatorResultCallback.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.controller.user.action.registration/RegistrationSubaction.RegistrationResultCallback///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/controller/user/action/registration/RegistrationSubaction.RegistrationResultCallback.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.controller.user.action/AuthenticatorDeregistrationAction.AuthenticatorDeregistrationSubaction///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/controller/user/action/AuthenticatorDeregistrationAction.AuthenticatorDeregistrationSubaction.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.controller.user.action/AuthenticatorRegistrationAction.AuthenticatorRegistrationSubaction///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/controller/user/action/AuthenticatorRegistrationAction.AuthenticatorRegistrationSubaction.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.controller/PayloadEncryptionController.SessionKeyExpiredException///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/controller/PayloadEncryptionController.SessionKeyExpiredException.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.facade/LibsodiumFacade.KeyPair///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/facade/LibsodiumFacade.KeyPair.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/AppToWebSingleSignOnError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/AppToWebSingleSignOnError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/ClientMigrationChallengeError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/ClientMigrationChallengeError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/ClientMigrationResponseError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/ClientMigrationResponseError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/ClientRegistrationChallengeError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/ClientRegistrationChallengeError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/ClientRegistrationResponseError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/ClientRegistrationResponseError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/ClientValidationError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/ClientValidationError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/CustomAuthenticatorError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/CustomAuthenticatorError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/CustomRegistrationError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/CustomRegistrationError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/DataStorageError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/DataStorageError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/MobileAuthAnswerError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/MobileAuthAnswerError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/MobileAuthEnrollmentError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/MobileAuthEnrollmentError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/MobileAuthFetchError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/MobileAuthFetchError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/MobileAuthPendingFetchError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/MobileAuthPendingFetchError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/MobileAuthSignError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/MobileAuthSignError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/OAuthError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/OAuthError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/PushEnrollmentError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/PushEnrollmentError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/PushTokenUpdateError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/PushTokenUpdateError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/TokenRequestError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/TokenRequestError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers.error/TokenRevokeError.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/error/TokenRevokeError.Type.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiAppToWebSingleSignOnHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiAppToWebSingleSignOnHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiAuthenticationHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiAuthenticationHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiAuthenticatorDeregistrationHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiAuthenticatorDeregistrationHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiAuthenticatorRegistrationHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiAuthenticatorRegistrationHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiChangePinHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiChangePinHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiDenyMobileAuthWithPushRequestHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiDenyMobileAuthWithPushRequestHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiDeregisterUserProfileHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiDeregisterUserProfileHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiDeviceAuthenticationHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiDeviceAuthenticationHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiImplicitAuthenticationHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiImplicitAuthenticationHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiInitializationHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiInitializationHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiLogoutHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiLogoutHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiMobileAuthEnrollmentHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiMobileAuthEnrollmentHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiMobileAuthWithOtpHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiMobileAuthWithOtpHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiMobileAuthWithPushEnrollmentHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiMobileAuthWithPushEnrollmentHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiMobileAuthenticationHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiMobileAuthenticationHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiPendingMobileAuthWithPushRequestsHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiPendingMobileAuthWithPushRequestsHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiPinValidationHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiPinValidationHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiRefreshMobileAuthPushTokenHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiRefreshMobileAuthPushTokenHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiRefreshStatelessSessionHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiRefreshStatelessSessionHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiRegistrationHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiRegistrationHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiResetHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiResetHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.handlers/LockedOneginiStatelessRegistrationHandler.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/handlers/LockedOneginiStatelessRegistrationHandler.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.model.entity/Authenticator.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/model/entity/Authenticator.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.model.entity/ClientRegistrationChallenge.AppIntegrityLevel///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/model/entity/ClientRegistrationChallenge.AppIntegrityLevel.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.model.entity/FingerprintAuthenticationResult.Factory///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/model/entity/FingerprintAuthenticationResult.Factory.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.model.entity/FingerprintAuthenticationResult.Result///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/model/entity/FingerprintAuthenticationResult.Result.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.model.entity/SupportedIdentityProvider.FlowType///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/model/entity/SupportedIdentityProvider.FlowType.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.model.entity/SupportedIdentityProvider.IdpType///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/model/entity/SupportedIdentityProvider.IdpType.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.security.pgp.model/DecryptionParams.Builder///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/security/pgp/model/DecryptionParams.Builder.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.security.pgp.model/EncryptionParams.Builder///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/security/pgp/model/EncryptionParams.Builder.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.service/HandshakeService.HandshakeFailureException///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/service/HandshakeService.HandshakeFailureException.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.service/HandshakeService.InvalidClientException///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/service/HandshakeService.InvalidClientException.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.service/HandshakeService.PayloadEncryptionDisabledException///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/service/HandshakeService.PayloadEncryptionDisabledException.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.service/PlainRequestService.PayloadEncryptionRequiredException///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/service/PlainRequestService.PayloadEncryptionRequiredException.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.storage.db/OneginiContract.AuthenticatorEntry///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/storage/db/OneginiContract.AuthenticatorEntry.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.storage.db/OneginiContract.UserProfileAuthenticatorEntry///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/storage/db/OneginiContract.UserProfileAuthenticatorEntry.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.storage.db/OneginiContract.UserProfileEntry///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/storage/db/OneginiContract.UserProfileEntry.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.storage.db/OneginiContract.UserProfilePGPKeyEntry///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/storage/db/OneginiContract.UserProfilePGPKeyEntry.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.utils/MedlCheckResultMapper.DeviceStatus///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/utils/MedlCheckResultMapper.DeviceStatus.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.utils/VersionComparator.Companion.SdkMigrationVersion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/utils/VersionComparator.Companion.SdkMigrationVersion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.utils/VersionComparator.Companion.ServerFeatureSupportVersion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/utils/VersionComparator.Companion.ServerFeatureSupportVersion.html
+$dokka.location:com.onegini.mobile.sdk.android.internal.utils/VersionComparator.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/internal/utils/VersionComparator.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.model.entity/UserProfile.Companion///PointingToDeclaration/com/onegini/mobile/sdk/android/model/entity/UserProfile.Companion.html
+$dokka.location:com.onegini.mobile.sdk.android.model/OneginiAuthenticator.Type///PointingToDeclaration/com/onegini/mobile/sdk/android/model/OneginiAuthenticator.Type.html
+com.onegini.mobile.sdk.android.client
+com.onegini.mobile.sdk.android.exception
+com.onegini.mobile.sdk.android.handlers
+com.onegini.mobile.sdk.android.handlers.action
+com.onegini.mobile.sdk.android.handlers.error
+com.onegini.mobile.sdk.android.handlers.request
+com.onegini.mobile.sdk.android.handlers.request.callback
+com.onegini.mobile.sdk.android.internal
+com.onegini.mobile.sdk.android.internal.controller
+com.onegini.mobile.sdk.android.internal.controller.client.action
+com.onegini.mobile.sdk.android.internal.controller.user.action
+com.onegini.mobile.sdk.android.internal.controller.user.action.biometric
+com.onegini.mobile.sdk.android.internal.controller.user.action.customauthenticator
+com.onegini.mobile.sdk.android.internal.controller.user.action.mobileauth
+com.onegini.mobile.sdk.android.internal.controller.user.action.pin
+com.onegini.mobile.sdk.android.internal.controller.user.action.registration
+com.onegini.mobile.sdk.android.internal.facade
+com.onegini.mobile.sdk.android.internal.handlers
+com.onegini.mobile.sdk.android.internal.handlers.error
+com.onegini.mobile.sdk.android.internal.handlers.error.builder
+com.onegini.mobile.sdk.android.internal.handlers.error.details
+com.onegini.mobile.sdk.android.internal.handlers.error.mapper
+com.onegini.mobile.sdk.android.internal.handlers.error.parser
+com.onegini.mobile.sdk.android.internal.handlers.error.transformer
+com.onegini.mobile.sdk.android.internal.interceptor
+com.onegini.mobile.sdk.android.internal.model
+com.onegini.mobile.sdk.android.internal.model.entity
+com.onegini.mobile.sdk.android.internal.model.entity.payloadencryption
+com.onegini.mobile.sdk.android.internal.model.rest.request
+com.onegini.mobile.sdk.android.internal.model.rest.response
+com.onegini.mobile.sdk.android.internal.module
+com.onegini.mobile.sdk.android.internal.retrofit
+com.onegini.mobile.sdk.android.internal.retrofit.adapters
+com.onegini.mobile.sdk.android.internal.retrofit.converters
+com.onegini.mobile.sdk.android.internal.security
+com.onegini.mobile.sdk.android.internal.security.certificatepinning
+com.onegini.mobile.sdk.android.internal.security.jwt
+com.onegini.mobile.sdk.android.internal.security.payloadencryption
+com.onegini.mobile.sdk.android.internal.security.pgp
+com.onegini.mobile.sdk.android.internal.security.pgp.model
+com.onegini.mobile.sdk.android.internal.security.pgp.util
+com.onegini.mobile.sdk.android.internal.security.securityguard
+com.onegini.mobile.sdk.android.internal.service
+com.onegini.mobile.sdk.android.internal.service.customauthenticator
+com.onegini.mobile.sdk.android.internal.service.networkstate
+com.onegini.mobile.sdk.android.internal.service.provider
+com.onegini.mobile.sdk.android.internal.storage
+com.onegini.mobile.sdk.android.internal.storage.client
+com.onegini.mobile.sdk.android.internal.storage.db
+com.onegini.mobile.sdk.android.internal.storage.db.dao
+com.onegini.mobile.sdk.android.internal.storage.db.dao.sqlite
+com.onegini.mobile.sdk.android.internal.storage.db.migration
+com.onegini.mobile.sdk.android.internal.storage.profile
+com.onegini.mobile.sdk.android.internal.storage.profile.refreshtoken
+com.onegini.mobile.sdk.android.internal.storage.profile.refreshtoken.cryptor
+com.onegini.mobile.sdk.android.internal.storage.sharedpreferences
+com.onegini.mobile.sdk.android.internal.utils
+com.onegini.mobile.sdk.android.model
+com.onegini.mobile.sdk.android.model.entity
+
