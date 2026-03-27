@@ -1,3 +1,7 @@
-## Swift Public API documentation
+## OMI SDK Public API documentation
 
-The documentation generated using [Apple's DocC](https://developer.apple.com/documentation/docc) is available in this public repository.
+### iOS ###
+The documentation generated using [Apple's DocC]
+
+### Android ###
+The documentation generated using [Android's JavaDoc]
