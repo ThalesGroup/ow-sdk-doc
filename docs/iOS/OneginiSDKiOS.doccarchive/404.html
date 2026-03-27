@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <script>
+    // SPA redirect for GitHub Pages
+    // Saves the requested URL and sends the browser to the SPA root,
+    // where index.html will restore it before Vue Router initialises.
+    sessionStorage.setItem('spa-redirect', window.location.href);
+    window.location.replace(
+      '/ow-sdk-doc/docs/iOS/OneginiSDKiOS.doccarchive/'
+    );
+  </script>
+</head>
+<body></body>
+</html>
